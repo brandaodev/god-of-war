@@ -1,0 +1,31 @@
+footer {
+  display: flex;
+  padding: 2.4rem 0;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      a {
+        transition: all .3s ease;
+      }
+      a:hover {
+        color: #3265ea;
+      }
+    }
+    .social {
+      ul {
+        display: flex;
+        gap: 2.4rem;
+        li {
+          a {
+            padding: 1rem;
+            .svg-inline--fa{
+              height: 3rem;
+              }
+            }
+          }          
+        }
+      }
+    }
+  }
